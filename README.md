@@ -13,6 +13,6 @@ Mental task
 At the end of this calibration and training, the main_TRAINING.m launches a quick indifference point measurement in the reward domain between effort level 0 (low effort option) and effort level 2 (middle level of the high effort option). This measure will subsequently serve to calibrate the amounts of money used for each task.
 The order of physical vs mental will depend on the value entered in input and should be counterbalanced across subjects.
 
-Once the calibration + training + indifference point measurement was over outside the scanner, we put subjects in the fMRI. After MRI recording, we launched the task (in the same order as the training) with the script choice_task_main.m.
+Once the calibration + training + indifference point measurement was over outside the scanner, we put subjects in the fMRI. After MRI recording, we launched the task (in the same order as the training) with the script choice_task_main.m which allows you to indicate subject name, session type (physical/mental) and block number.
 
 Note that scripts are working for Windows 10, Matlab >=2021, Psychtoolbox 3 (http://psychtoolbox.org/), a handgrip from BioPac connected to Matlab via a National Instruments NI 9215 BNC module and a cDAQ-9171 chassis card, a 4 button curve right Fiber Optic Response Pad from Current Designs, and a 7T Siemens Magnetom scanner. Adaptations may be required to the code depending on the devices and software that you plan to use.
